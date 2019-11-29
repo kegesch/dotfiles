@@ -1,0 +1,26 @@
+- defaults: 
+    link: 
+      relink: true
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.SpaceVim: spacevim
+    ~/.vimrc: vimrc
+    ~/.vscode: vscode
+    ~/.finda: finda
+    ~/.crates.toml: crates
+    ~/.cargo: cargo
+    ~/.rustup: rustup
+    ~/.config/fish: fish
+      create: true
+      path: config/fish
+    ~/.config/fisher: fisher
+      create: true
+      path: config/fisher
+    ~/.config/nvim: 
+    ~/.john: john
+    ~/.cisco: cisco
+    ~/.hashcat: hashcat
+    ~/.gitconfig: gitconfig
+    ~/.sqlmap: sqlmap
